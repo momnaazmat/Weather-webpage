@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">     -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet preload"
+      as="style"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet preload"
+      as="style"
+    />
+    <script src="https://kit.fontawesome.com/4d6d1ac658.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="container">
+        <p class="the_weather">the.weather</p>
+        <div class="bottom">
+            <div class="Degree">08&#176;</div>
+            <div class="city">
+                <div class="city_name"> London </div>
+                <div class="date">06:09 - Sunday, 6 Oct '19</div>
+            </div>
+            <div class="state">
+                <i class="fas fa-cloud-showers-heavy"></i>
+                <div class="state_info">Rainy</div>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="side_bar">
+        <section class="search_bar">
+
+            <input class="search" type="text" placeholder="Another location" bind:value={input} on:keyup={pressEnter}  />
+            <button class="search-button" type="button" role="button" on:click={getWeather}>
+                <div id="box"></div>
+                <img src="magnifying+glass+search+zoom+icon-1320196461375500720.png" alt="Error loading image" width="50">
+            </button>
+            
+
+
+        </section>
+        <section class="location_bar">
+            <div>
+                <div id="one" class="lineNum"><right><span>Birmingham</span></right></div> <br> <br>
+                <div id="two" class="lineNum"><right><span>Manchester</span></right></div> <br> <br>
+                <div id="three" class="lineNum"><right><span>New York</span></right></div> <br> <br>
+                <div id="Four" class="lineNum"><right><span>California</span></right></div>
+                <hr>
+            </div>
+      
+        </section>
+        <section class="weather_details_bar">
+            <h3>Weather Details</h3>
+            <div id="five" class="lineNum"><right><span>Cloudy</span><span class="five_right">86%</span></right></div> <br> <br>
+            <div id="six" class="lineNum"><right><span>Humidity</span><span class="six_right">62%</span></right></div> <br> <br>
+            <div id="seven" class="lineNum"><right><span>Wind</span><span class="seven_right">8km/h</span></right></div> <br> <br>
+            <div id="eight" class="lineNum"><right><span>Rain</span><span class="eight_right">8mm</span></right></div>
+            <hr>
+        </section>
+        <section class="last">
+        <p>.</p>
+        </section>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,226 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url('pexels-photo-6331043.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Jost';
+
+}
+.the_weather{
+  font-family: 'Poppins', sans-serif;
+  margin: 30px;
+  line-height: 8rem;
+  color: white;
+  font-size: large;
+  font-weight: 700;
+  padding-left: 90px;
+}
+
+div{
+  display: block;
+}
+
+.bottom{
+  margin-top: 370px;
+  color: white;
+  display: flex;
+
+}
+.Degree{
+  font-size: 150px;
+  font: weight 800px;
+  font-size: 150px;
+  padding-left: 120px;
+}
+
+.city{
+  text-align: center;
+}
+
+.city_name{
+  display: block;
+  font-size: 70px;
+  padding-top: 61px;
+  padding-left: 19px;
+  line-height: 1;
+}
+
+.date{
+  padding-left: 15px;
+  font-size: 19.5px;
+}
+
+.state{
+  margin: 22px;
+  flex-direction: row;
+  padding-top: 35px;
+  padding-left: 19px;
+  line-height: 1;
+  font-size: 19.5px;
+}
+
+.fa-cloud-showers-heavy{
+  display: block;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  padding-left: 2px;
+  margin: 3px;
+  font-size: 45px;
+  line-height: 1;
+}
+
+.state_info{
+  padding-left: 4px;
+  font-size: 19.5px;
+}
+
+.side_bar{
+  position: fixed;
+  top: 0;
+  font-family: "Lato", sans-serif;
+  right:0;
+  width: 550px;
+  padding-left: 4em;
+  flex-direction: column;
+  backdrop-filter: blur(100px);
+  padding-top: 34px;
+ 
+}
+
+.side_bar a {
+  text-decoration: none;
+  display: flex;
+  margin-top: 55px;
+  color: rgba(255, 255, 255, 0.4);
+  counter-increment: line;
+}
+
+h3{
+  display: flex;
+  padding-top: 55px;
+  padding-bottom: 58px;
+  color: rgb(252, 247, 247);
+  
+}
+
+.search{
+  font-size: 18px;
+  display: inline-flex;
+  align-items: flex-end;
+  background: none;
+  border: inherit;
+  border-bottom: solid rgba(241, 239, 239, 0.4) 1px;
+  padding-bottom: 8px;
+  border-radius: 0;
+  color: inherit;
+  transition: border-bottom-color ease-in-out 100ms;
+  color:solid rgba(255, 255, 255, 0.4);
+  line-height: 2;
+  
+  
+}
+
+button {
+  font-size: inherit;
+  background: inherit;
+  border: inherit;
+  color: inherit;
+  font: inherit;
+  appearance: auto;
+  background-color:solid rgba(175, 168, 168, 0.4) 1px;
+  
+}
+
+.search-button {
+  background: var(--accent-color);
+  color: #000;
+  border: none;
+  min-width: 80px;
+  min-height: 80px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  transition: background-color ease-in 200ms;
+  background-color:solid rgba(175, 168, 168, 0.4) 1px;
+}
+
+.search-button:focus {
+  outline:#818181;
+  border: dotted #fff 2px;
+}
+
+.last{
+
+  padding-bottom: 3em;
+}
+
+.lineNum{
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  font-size: 18px;
+}
+
+#Four{
+  padding-bottom: 50px;
+}
+
+#one{
+  padding-top: 25px;
+}
+
+#eight{
+  padding-bottom: 25px;
+}
+
+.five_right{
+  float: right;
+  padding-left: 350px;
+}
+
+.six_right{
+  float: right;
+  padding-left: 333px;
+}
+
+.seven_right{
+  float: right;
+  padding-left: 349px;
+}
+
+.eight_right{
+  float: right;
+  padding-left: 370px;
+}
+
+hr{
+  left: auto;
+  width: 92%;
+  border: solid rgba(255, 255, 255, 0.4) 1px;
+}
+
+.fa-search{
+
+  padding-left: 200px
+}
+
+img{
+ 
+  width: 99px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.1);
+  background-color: rgb(185, 155, 116);
+  opacity: 0.6;
+}
+
+
+  
+  
